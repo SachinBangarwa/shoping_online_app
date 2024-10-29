@@ -5,6 +5,7 @@ import 'package:shoping_online_app/json/constant.dart';
 import 'package:shoping_online_app/page/account_page.dart';
 import 'package:shoping_online_app/page/cart_page.dart';
 import 'package:shoping_online_app/page/home_page.dart';
+import 'package:shoping_online_app/page/more_page.dart';
 import 'package:shoping_online_app/page/store_page.dart';
 import 'package:shoping_online_app/provider/root_provider.dart';
 import 'package:shoping_online_app/theme/colors.dart';
@@ -37,9 +38,7 @@ class _RootAppState extends State<RootApp> {
          StorePage(),
          AccountPage(),
          CartPage(),
-         Center(
-           child: Text("more"),
-         )
+         MorePage()
        ],
     );
   }
