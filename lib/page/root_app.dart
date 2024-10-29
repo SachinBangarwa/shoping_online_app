@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shoping_online_app/json/constant.dart';
 import 'package:shoping_online_app/page/account_page.dart';
+import 'package:shoping_online_app/page/cart_page.dart';
 import 'package:shoping_online_app/page/home_page.dart';
 import 'package:shoping_online_app/page/store_page.dart';
 import 'package:shoping_online_app/provider/root_provider.dart';
@@ -35,9 +36,8 @@ class _RootAppState extends State<RootApp> {
         HomePage(),
          StorePage(),
          AccountPage(),
+         CartPage(),
          Center(
-           child: Text("cart"),
-         ), Center(
            child: Text("more"),
          )
        ],
